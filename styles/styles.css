@@ -58,4 +58,11 @@ body{
   font-size: 20px;
   margin-right: 20px;
 }
+#mapid{
+  height: 500px;
+  width: 70%;
+  border: 3px solid #00B4CC;
+  border-radius: 10px;
+
+}
 
