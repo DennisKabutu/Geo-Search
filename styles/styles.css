@@ -3,43 +3,50 @@
 
 *{
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body{
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
 }
+h3{
+  color:#4e566e;
+}
+.container{
+  margin: 30px 40px;
+  border-radius: 10px;
+  box-shadow : 0 0 10px #4e566e;
+}
 #header{
-  display: flex;
+  height: 60px;
+  display: inline-flex;
   width: 100%;
-  flex-direction: row;
+  background: #4e566e;
+  align-items: center;
+  justify-content: space-around;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 #logo{
-  flex: 50%;
   padding: 0 20px;
   font-family: 'Bevan', cursive;
-  color:rgb(2, 30, 34);
-  size: 30px;
-
+  color:#fff;
+  size: 30px; 
 }
 
 .search {
   width: 50%;
   position: relative;
-  display: flex;
-  align-items:center;
-  flex: 50%;
+  display: inline-flex; 
 }
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #00B4CC;
   border-right: none;
   padding: 10px;
   height: 36px;
   border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #9DBFAF;
-  
 }
 
 .searchTerm:focus{
@@ -49,20 +56,72 @@ body{
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
   text-align: center;
-  color: #fff;
+  color: #4e566e;
+  background:#fff;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
-  margin-right: 20px;
+  border: none;
+ 
+}
+.facebook-share{
+  background:#fff;
+  border-radius: 5px;
+  font-size: medium;
+  padding: 5px 10px ;
+  align-items: center;
 }
 #mapid{
-  height: 500px;
-  width: 70%;
-  border: 3px solid #00B4CC;
-  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 10px;
+  height: 650px;
+  width:100%;
+  border-radius: 2px;
+  box-shadow: 0 0 5px #4e566e;
+}
+.aside{
+  display: flex;
+  flex-direction: column;
+  width:30%;
+  text-align: center;
+  box-shadow: 0 0 5px #4e566e;
+}
+#location{
+  margin: 5px;
+  padding: 10px 20px;
+  display: inline-flex;
+  justify-content: space-between;
+  box-shadow: 0 0 5px #4e566e;
+  border-radius: 5px;
+}
+.weather{
+  padding: 10px 20px;
+  box-shadow: 0 0 5px #4e566e;
+  border-radius: 5px;
+  margin: 5px;
+}
+.weathermap{
+  display:inline-flex;
+  width: 100%;
 
 }
+
+.image-resize{
+  height: 32px;
+  width: 32px;
+}
+
+.share{
+  margin: 10px 20px;
+  padding: 10px 30px;
+  background: #4e566e;
+  color: #fff;
+  border-radius:5px;
+  box-shadow: 0 0 2px #4e566e;
+}
+
+
+
+
 
