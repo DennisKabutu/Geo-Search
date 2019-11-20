@@ -1,0 +1,9 @@
+{
+  "extends": ["eslint:recommended", "airbnb-base", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "warn",
+    "function-call-argument-newline": "off",
+    "no-console": "warn"
+  }
+}
