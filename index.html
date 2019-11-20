@@ -24,8 +24,8 @@
                 <h2>Geosearch</h2>
              </div>
             <div class="search">
-            <input type="text" id="search-input" class="searchTerm" placeholder="Search for places,locations">
-            <button type="submit" class="searchButton" id="submit">
+            <input type="text"  class="searchTerm" placeholder="Search for places,locations" id="search">
+            <button type="submit" class="searchButton" id="submit" onclick="displayInput();">
                 <i class="fa fa-search"></i>
             </button>
             
@@ -35,6 +35,7 @@
     <div class="weathermap">
         <div class="aside">
             <div id="location">
+                <h3>Location</h3>
                 <div class="location-icon">
                    <img src="icons/iconfinder_worldwide_location_2639757.png" class="image-resize">
                 </div>
@@ -50,10 +51,14 @@
                 <!--insert an icon-->
                     <img src="icons/unknown.png" alt="weather icon">
                  </div>
-                <div class="temperature-value">
+                <div class="temp">
                     <p>23*<span>C</span></p>
                 </div>
-                <div class="temperature-description"><p>-</p></div>
+                <div class="temp-desc"><p>-</p></div>
+            </div>
+            <div class="gallery">
+                <h3>Gallery</h3>
+                <img src="images/person-wearing-black-jacket-holding-black-umbrella-walking-2246789.jpg" style="height:100%; width: 100%;" alt="Landmark photo">
             </div>
             <button class="share">share on facebook</button>
         </div>
