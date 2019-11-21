@@ -4,6 +4,7 @@
   "rules": {
     "prettier/prettier": "warn",
     "function-call-argument-newline": "off",
-    "no-console": "warn"
+    "no-console": "warn",
+    "no-undef": "warn"
   }
 }
